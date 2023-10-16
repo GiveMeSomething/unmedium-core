@@ -1,6 +1,6 @@
 # UnMedium Core
 
-[![Latest release](https://img.shields.io/github/v/release/givemesomething/unmedium?color=facc15)](https://github.com/GiveMeSomething/unmedium-core/releases)
+[![Latest release](https://img.shields.io/github/v/release/givemesomething/unmedium-core?color=facc15)](https://github.com/GiveMeSomething/unmedium-core/releases)
 
 ## Description
 
