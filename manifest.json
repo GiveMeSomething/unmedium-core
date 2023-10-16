@@ -1,21 +1,25 @@
 {
-  "name": "Unmeidum",
+  "name": "Unmedium",
   "description": "UnMedium - Lightweight Core Version",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [
-    "storage",
     "scripting",
-    "contentSettings",
     "webRequest",
     "declarativeNetRequest",
-    "declarativeNetRequestFeedback"
+    "declarativeNetRequestFeedback",
+    "tabs",
+    "activeTab"
   ],
   "content_scripts": [
     {
       "matches": ["*://webcache.googleusercontent.com/*"],
-      "js": ["content-script/enhanceGoogleCache.js"],
+      "js": ["scripts/enhance.js"],
       "run_at": "document_start"
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background/events.js"
+  },
+  "action": {}
 }
