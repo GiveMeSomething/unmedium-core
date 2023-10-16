@@ -1,10 +1,18 @@
 # UnMedium Core
 
+[![Latest release](https://img.shields.io/github/v/release/givemesomething/unmedium?color=facc15)](https://github.com/GiveMeSomething/unmedium-core/releases)
+
 ## Description
 
 - Read Medium articles from Google Cache with a click!
 - No more "member-only story" paywall
 - Also check out [unmedium](https://github.com/GiveMeSomething/unmedium) for a full version with a web reader
+
+## How to use
+
+- Go to [Releases] section and download the ZIP file included with the release (unmedium.zip), then unzip.
+- Open `Manage extension` and turn on `Developer Mode`.
+- `Load unpacked` the folder that you have unzip earlier
 
 ## Why does it exist?
 
@@ -34,3 +42,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+UnMedium exists thanks to everyone who contributes ideas or code, reports bugs, or simply uses the extension. Thank you!
