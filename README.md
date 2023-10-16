@@ -10,7 +10,7 @@
 
 ## How to use
 
-- Go to [Releases] section and download the ZIP file included with the release (unmedium.zip), then unzip.
+- Go to [Releases](https://github.com/GiveMeSomething/unmedium-core/releases/tag/1.0.0) section and download the ZIP file included with the release (unmedium.zip), then unzip.
 - Open `Manage extension` and turn on `Developer Mode`.
 - `Load unpacked` the folder that you have unzip earlier
 
