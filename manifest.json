@@ -3,6 +3,11 @@
   "description": "UnMedium - Lightweight Core Version",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "images/avatar.png",
+    "32": "images/avatar.png",
+    "48": "images/avatar.png"
+  },
   "declarative_net_request": {
     "rule_resources": [
       {
