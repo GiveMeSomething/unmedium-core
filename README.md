@@ -21,6 +21,10 @@
 
 - After much research, all I have to do is just disable JavaScript using Chrome DevTools. It worked, and now the extension have to imitate the same behavior for my idea to work. For the extension, I just block all incoming scripts using Chrome `declarativeNetRequest` settings
 
+## Roadmap
+
+- Domain Storage: Medium provide its creator with the ability to change their domain. This extension only work with hostname that include the `medium` string. For this issue, I'll try and add a feature that can store multiple appliable domain and configurable by user
+
 ## License
 
 Copyright 2023 GiveMeSomething
