@@ -4,8 +4,8 @@
 
 ## Description
 
-- Read Medium articles from Google Cache with a click!
-- No more "member-only story" paywall
+- Read (any?) articles from Google Cache with a click!
+- No more "member-only story" paywall from Medium
 - Also check out [unmedium](https://github.com/GiveMeSomething/unmedium) for a full version with a web reader
 
 ## How to use
@@ -16,18 +16,14 @@
 
 ## Why does it exist?
 
-- I love Medium, people share their experiences and their insights through articles, making the world a better place. But recently, Medium added "member-only stories" feature, which can be translated as a paywall. You must pay subscription to read these articles.
-- There are something I want to read at times, but not always. I'm willing to pay for something I use everyday, not something that I use scarcely.
+- Recently, Medium added "member-only stories" feature, which can be translated as a paywall. You must pay subscription to read these articles.
+- There are things I want to read, but not always. I'm willing to pay for everyday services, not for something that I rarely use.
 
-## How does it exist?
+## How does it work?
 
-- It starts with a Google query "view medium articles free". Then I stumbled upon a GitHub blog that guides people [How to utilize Google Cache to read the articles](https://canererden.com/blog/2023/unlock-medium/).
-
-- One small problem with the solution, pages only work in text-only mode. It was okay for most, but it was a little bit confusing for some with multiple illustrations and diagrams (system design articles for example)
-
-- After inspection, all pages' layout and content were there, but only a blank white space was shown. I assumed they must render the content first for SEO reasons, then add extra interactions on the run. Fun fact, they use React, and now it is safe to assume that they use Static Server Side Rendering with Rehydration. Read more about [Rendering on the web](https://web.dev/articles/rendering-on-the-web)
-
-- After much research, all I have to do is just disable JavaScript using Chrome DevTools. It worked, and now the extension have to imitate the same behavior for my idea to work. For the extension, I just block all incoming scripts using Chrome `declarativeNetRequest` settings
+- First it redirect to Google Cache with the current URL as the query
+- Disable all incoming scripts (currently from medium's sources)
+- The rest is magic?
 
 ## Roadmap
 
