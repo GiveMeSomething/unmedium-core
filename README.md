@@ -5,6 +5,7 @@
 ## Description
 
 - Read blocked articles, for example, "member-only stories" from Medium
+- Able to redirect to Google Cache for DNS-blocked Medium pages
 
 ## How to use
 
