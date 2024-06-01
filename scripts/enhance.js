@@ -1,8 +1,5 @@
 function bypassMedium() {
   const siteUrl = window.location.href;
-
-  console.log(siteUrl);
-
   const googleCacheUrl =
     "http://webcache.googleusercontent.com/search?q=cache:";
 
