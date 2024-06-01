@@ -1,8 +1,8 @@
+// This will blindly redirect to Google Cache, does not guarantee to be successful
+// This is to bypass DNS-blocking from several IPS
 chrome.webRequest.onErrorOccurred.addListener(
   // This function will blindly try to redirect current site to Google Cache directly
   (details) => {
-    console.log(details);
-
     const googleCacheUrl =
       "http://webcache.googleusercontent.com/search?q=cache:";
     const currentUrl = details.url;
@@ -23,7 +23,7 @@ chrome.action.onClicked.addListener(async (tab) => {
       files: ["scripts/enhance.js"],
     });
   } catch (error) {
-    console.log(error);
+    // TODO: Think of a better way to trigger onErrorOccurred scripts
     chrome.tabs.reload(tab.id);
   }
 });

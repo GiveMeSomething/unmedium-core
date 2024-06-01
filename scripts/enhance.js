@@ -5,7 +5,6 @@ function bypassMedium() {
 
   // Ignore if the page is already loaded from Google cache
   if (siteUrl.includes("webcache.googleusercontent.com")) {
-    console.log("Already in Google cache");
     return;
   }
 
