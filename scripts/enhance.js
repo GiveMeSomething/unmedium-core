@@ -1,6 +1,8 @@
 function bypassMedium() {
   const siteUrl = window.location.href;
 
+  console.log(siteUrl);
+
   const googleCacheUrl =
     "http://webcache.googleusercontent.com/search?q=cache:";
 
@@ -11,11 +13,7 @@ function bypassMedium() {
   }
 
   // Redirect to Google cache
-  window.location.replace(googleCacheUrl + siteUrl);
+  window.location.replace(`${googleCacheUrl}${siteUrl}`);
 }
 
-function enhance() {
-  bypassMedium();
-}
-
-enhance();
+bypassMedium();
